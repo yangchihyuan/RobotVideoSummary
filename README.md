@@ -1,4 +1,4 @@
-This directory contains the source files of our server side program, which runs on a Linux machine.
+This repository contain the source files of the extended abstract 'A Mobile Robot Generating Video Summaries of Seniors' Indoor Activities' published in MobileHCI 2019.
 
 # Environment Setting
 The environment I use to run the program
