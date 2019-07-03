@@ -8,7 +8,7 @@ The program is composed of 3 different parts
 ## Citation
 Please cite this paper in your publications if it helps your research:
   
-    @inproceedings{Yang19_RobotVideoSummary,
+    @inproceedings{Yang19_MobileHCI_RobotVideoSummary,
       author={Chih-Yuan Yang and Heeseung Yun and Srenavis Varadaraj and Jane Yung-jen Hsu},
       title={A Mobile Robot Generating Video Summaries of Seniors' Indoor Activities},
       booktitle={ACM International Conference on Human Computer Interaction with Mobile Devices and Services},
