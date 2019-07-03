@@ -92,8 +92,7 @@ void process_image(std::string pose_model, std::string detect_model, std::string
     Ptr<Tracker> tracker;
 
 
-/*
-    bool b_run_reid = false;
+    bool b_run_reid = true;
     if( b_run_reid )
     {
         std::unique_ptr<tensorflow::Session> tf_session;
@@ -151,7 +150,7 @@ void process_image(std::string pose_model, std::string detect_model, std::string
             std::cout << "Load Model "<<checkpointPath<<" successfully" << std::endl;
         }    
     }
-*/
+
 
     while(true)
     {
@@ -233,7 +232,7 @@ void process_image(std::string pose_model, std::string detect_model, std::string
                         if( bTwoEarsSufficientlyApart == true && roi.y >= 0)
                         {
                             tracker.reset();
-                            tracker = TrackerTLD::create();
+                            tracker = TrackerGOTURN::create();
                             tracker->init(inputImage, roi);
                             rectangle(displayImage, roi, Scalar( 0, 255, 0 ), 2, 1 );     //green
                             str_timestamp_initialize_tracker = str_timestamp;
