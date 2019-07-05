@@ -3,7 +3,7 @@ This repository contain the source files of the extended abstract **A Mobile Rob
 The program is composed of 3 different parts
 - [Robot side program](https://github.com/yangchihyuan/RobotVideoSummary_RobotSide)
 - [Server side program](https://github.com/yangchihyuan/RobotVideoSummary_ServerSide)
-- [Video summarization program](https://github.com/yangchihyuan/RobotVideoSummary_Summarizationi)
+- [Video summarization program](https://github.com/yangchihyuan/RobotVideoSummary_Summarization)
 
 ## Citation
 Please cite this paper in your publications if it helps your research:
